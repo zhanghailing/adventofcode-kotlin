@@ -12,4 +12,9 @@ fun main(args: Array<String>) {
   println("common is: $longestCommon")*/
 
   var dayThree = DayThree("C:\\Users\\Hailing\\Desktop\\kotlin_12_02\\input\\day3\\input.txt")
+  dayThree.readPlans()
+  //var count =dayThree.checkOverlap()
+  //println("count more than 2 claims is: $count")
+  var nonOverlap = dayThree.checkNonOverLaps()
+  println("# claim that is non-overlapping is: $nonOverlap")
 }
